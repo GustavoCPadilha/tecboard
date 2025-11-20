@@ -1,16 +1,101 @@
-# React + Vite
+# 🚀 TecBoard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dashboard de eventos de tecnologia – Projeto desenvolvido durante a formação **React** da **Alura**, com orientação do professor **Vinicios Neves**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Sobre o projeto
 
-## React Compiler
+O **TecBoard** é um painel organizado por temas da área de tecnologia (Front-end, Back-end, Cloud, IA, etc.), onde o usuário pode cadastrar eventos e visualizá-los de maneira dinâmica.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Cada evento possui:
 
-## Expanding the ESLint configuration
+* 🖼️ Capa
+* 🏷️ Tema
+* 🗓️ Data
+* 📌 Título
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Os eventos são agrupados automaticamente por tema, e somente os temas com eventos cadastrados aparecem no dashboard.
+
+O projeto foi construído com foco em:
+
+* Componentização
+* Renderização condicional
+* Manipulação de estado com `useState`
+* Formulários controlados no React
+* Organização e modularização de componentes
+
+---
+
+## 🧠 O que aprendi com este projeto
+
+* ✔ Como estruturar uma aplicação React com componentes reutilizáveis
+* ✔ Manipulação de listas e estados
+* ✔ Renderização condicional baseada em dados
+* ✔ Boas práticas de organização no React
+* ✔ Integração entre formulário e estado global
+* ✔ Uso de objetos, arrays e filtragem para renderização dinâmica
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* **React**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS Modules**
+* **Hooks (useState)**
+
+---
+
+## ▶️ Como executar o projeto localmente
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU-USUARIO/tecboard.git](https://github.com/SEU-USUARIO/tecboard.git)
+    ```
+2.  **Entre na pasta:**
+    ```bash
+    cd tecboard
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+4.  **Execute o projeto:**
+    ```bash
+    npm run dev
+    ```
+5.  **Acesse no navegador:**
+    ```
+    http://localhost:5173
+    ```
+
+---
+
+## 🧩 Funcionalidades
+
+* Adicionar novos eventos por meio do formulário
+* Definir tema, capa, título e data
+* Separação automática de eventos por categoria
+* Exibição apenas dos temas que possuem eventos
+* Criação de cards dinâmicos para cada item cadastrado
+
+---
+
+## 🌐 Deploy
+
+Você pode acessar a versão hospedada do projeto aqui:
+👉 [https://tecboard-five-ashen.vercel.app](https://tecboard-five-ashen.vercel.app)
+
+---
+
+## 🙏 Agradecimentos
+
+Projeto desenvolvido durante a formação da Alura, com aulas do Vinicios Neves, que contribuíram muito para meu aprendizado em React.
+
+---
+
+## 📄 Licença
+
+Este projeto é apenas para fins educacionais.
